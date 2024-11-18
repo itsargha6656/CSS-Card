@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cards</title>
+    <style>
+        .card{
+            display: block;
+            border: 2px solid black;
+            width: 300px;
+            height: 500px;
+            border-radius: 12px;
+            padding: 7px;
+
+        }
+      
+        .image img{
+            width: 300px;
+            height: 200px;
+            border-radius: 12px;
+        
+            
+        }
+       .subheading{
+        display: flex;
+        width: 300px;
+        height: 37px;
+       /* border: 2px solid whte;*/
+        align-items:center;
+        justify-content: space-between;
+        position: relative;
+        bottom: 12px;
+       }
+       .box{
+        display: inline-block;
+        padding: 4px;
+        border-radius: 10px;
+        font-size: 12px;
+        }
+        .box1 {
+            margin-left: 12px;
+            border: 2px solid black;
+
+        
+        }
+        .box2 {
+            margin-right: 198px;
+            border: 2px solid black;
+        }
+        .content {
+            display: block;
+            width: 300px;
+            height: 240px;
+          /*  border: 2px solid white;*/
+        }
+
+        .content-heading{
+            display: inline-block;
+            padding: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        .text {
+            display: inline-block;
+            padding: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="card">
+  
+        <div class="image">
+            <img src="49a0d2b4-bf16-4e3b-8a51-4606d7493670.jpeg" >
+        </div>
+    
+        <br>
+        <div class="subheading">
+            <div class="box box1">
+                Nature
+            </div>
+            <div class="box box2">
+                Logo
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-heading">
+                Brazil's View From lake
+            </div>
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, possimus fuga assumenda praesentium
+                odio aspernatur voluptas nesciunt, quo perferendis officiis explicabo consequuntur unde repellat commodi
+                dignissimos dolorem et aliquid quidem?
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
